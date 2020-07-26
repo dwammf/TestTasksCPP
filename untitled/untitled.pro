@@ -19,17 +19,20 @@ SOURCES += \
     infoprojectwindow.cpp \
     main.cpp \
     mainwindow.cpp \
-    task1.cpp
+    task1.cpp \
+    task2.cpp
 
 HEADERS += \
     infoprojectwindow.h \
     mainwindow.h \
-    task1.h
+    task1.h \
+    task2.h
 
 FORMS += \
     infoprojectwindow.ui \
     mainwindow.ui \
-    task1.ui
+    task1.ui \
+    task2.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

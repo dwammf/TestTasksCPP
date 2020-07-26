@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "infoprojectwindow.h"
 #include "task1.h"
+#include "task2.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -31,5 +32,7 @@ void MainWindow::on_pbOpenTask01_clicked()
 
 void MainWindow::on_pbOpenTask2_clicked()
 {
-
+    Task2 task2window;
+    task2window.setModal(true);
+    task2window.exec();
 }
